@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading">L'Equip</h2>
+                <h3 class="section-subheading text-muted">Amb vosaltres fem el millor equip</h3>
             </div>
         </div>
         <div class="row">
@@ -13,14 +13,17 @@
                 <div class="team-member">
                     <img src="/assets/img/team/{{ member.photo }}" class="img-responsive img-circle" alt="{{ member.name }}">
                     <h4>{{ member.name }}</h4>
-                    <p class="text-muted">{{ member.bio }}</p>
+                    <p class="text-muted">{{ member.headline }}</p>
+                    <p class="text-muted text-left">{{ member.bio }}</p>
                     <ul class="list-inline social-buttons">
-                        <li><a href="http://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="http://www.facebook.com/{{ member.facebook }}"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="http://www.linkedin.com/in/{{ member.linkedin }}"><i class="fa fa-linkedin"></i></a>
-                        </li>
+                        {% if member.twitter %}<li><a href="http://twitter.com/{{ member.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>{% endif %}
+                        {% if member.linkedin %}<li><a href="http://www.linkedin.com/in/{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>{% endif %}
+                        {% if member.github %}<li><a href="http://github.com/{{ member.github }}" target="_blank"><i class="fa fa-github"></i></a>
+                        </li>{% endif %}
+                        {% if member.wikipedia %}<li><a href="https://ca.wikipedia.org/wiki/{{ member.wikipedia }}" target="_blank"><i class="fa fa-wikipedia-w"></i></a>
+                        </li>{% endif %}
                     </ul>
                 </div>
             </div>
@@ -29,7 +32,7 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                <p class="large text-muted">Adab1ts és el nostre projecte d’emprenedoria social, però no estem soles. La nostra xarxa de col·laboradors està formada per professionals del desenvolupament, el disseny gràfic i la producció audiovisual. En funció del projecte ampliem l’equip en aquelles àrees en que cada cas requereixi.</p>
             </div>
         </div>
     </div>
