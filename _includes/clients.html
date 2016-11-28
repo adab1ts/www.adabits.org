@@ -3,11 +3,9 @@
     <div class="container">
         <div class="row">
 
-          {% for client in site.data.clients %}
+          {% for client in site.data.clients limit:8 %}
             <div class="col-md-3 col-sm-6">
-                <a href="{{ client.web }}" target="_blank">
-                    <img src="/assets/img/logos/{{ client.logo }}" class="img-responsive img-centered" alt="{{ client.img-alt }}">
-                </a>
+                <img src="/assets/img/clients/{{ client.img_path }}" class="img-responsive img-centered" alt="Logo de {{ client.name }}">
             </div>
           {% endfor %}
 

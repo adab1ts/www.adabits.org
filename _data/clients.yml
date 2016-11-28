@@ -1,64 +1,64 @@
 - name: Barcelona en Comú
-  img_path: /img/clients/logo-bec.png
+  img_path: logo-bec.png
   img_width: 500
   img_height: 131
 
 - name: CONFAVC
-  img_path: /img/clients/logo-confavc.png
+  img_path: logo-confavc.png
   img_width: 500
   img_height: 131
 
 - name: La Ciutat Invisible
-  img_path: /img/clients/logo-laciutatinvisible.png
+  img_path: logo-laciutatinvisible.png
   img_width: 500
   img_height: 131
 
 - name: La Borda
-  img_path: /img/clients/logo-laborda.png
+  img_path: logo-laborda.png
   img_width: 500
   img_height: 131
 
 - name: Fil a l'Agulla
-  img_path: /img/clients/logo-filalagulla.png
+  img_path: logo-filalagulla.png
   img_width: 500
   img_height: 131
 
 - name: Impuls Cooperatiu de Sants
-  img_path: /img/clients/logo-impuls.png
+  img_path: logo-impuls.png
   img_width: 500
   img_height: 131
 
 - name: Zenith
-  img_path: /img/clients/logo-zenith.png
+  img_path: logo-zenith.png
   img_width: 500
   img_height: 131
 
 - name: BaumannLab
-  img_path: /img/clients/logo-baumannlab.png
+  img_path: logo-baumannlab.png
   img_width: 500
   img_height: 131
 
 - name: Espai Bit
-  img_path: /img/clients/logo-espaibit.png
+  img_path: logo-espaibit.png
   img_width: 500
   img_height: 131
 
 - name: Abadá Capoeira
-  img_path: /img/clients/logo-abada.png
+  img_path: logo-abada.png
   img_width: 500
   img_height: 131
 
 - name: EUDEA
-  img_path: /img/clients/logo-eudea.png
+  img_path: logo-eudea.png
   img_width: 500
   img_height: 131
 
 - name: Quaryat Dillar
-  img_path: /img/clients/logo-quaryat.png
+  img_path: logo-quaryat.png
   img_width: 500
   img_height: 131
 
 - name: Escola d'Arts del Prat
-  img_path: /img/clients/logo-eap.png
+  img_path: logo-eap.png
   img_width: 500
   img_height: 131

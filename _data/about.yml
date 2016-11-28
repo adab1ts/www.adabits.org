@@ -1,27 +1,37 @@
-- name: "Our Humble Beginnings"
+- name: "La nostra raó de ser"
   image: "1.jpg"
-  img-alt: "image description"
-  year: "2009-2011"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  img-alt: "Taula de treball"
+  order: 1
+  text: "Volem apropar la tecnologia a les persones perquè creiem en el seu gran potencial com a eina de comunicació i de millora de la realitat.<br>
+Aportem els recursos tecnològics i comunicatius necessaris per millorar el funcionament intern, amplificar la projecció i augmentar el grau d’autonomia de les organitzacions."
   side: left
 
-- name: "An Agency is Born"
+- name: "Com treballem"
   image: "2.jpg"
-  img-alt: "image description"
-  year: "March 2011"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  img-alt: "Treballant a l'ordinador"
+  order: 2
+  text: "El nostre procés de treball comença amb una anàlisi conjunta de les vostres necessitats on identifiquem objectius i requeriments. A partir d’aquí elaborem una proposta i treballem en iteracions on es van validant les diferents fases del projecte.<br>
+Us acompanyem en tot el procés i utilitzem un llenguatge entenedor per facilitar la comunicació i comprensió del projecte."
   side: right
+
 
 - name: "Transition to Full Service"
   image: "3.jpg"
   img-alt: "image description"
+  order: 3
   year: "December 2012"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  text: "[Angular 2](https://angular.io/), [React](https://facebook.github.io/react/), [NativeScript 2](https://www.nativescript.org/), [Ruby on Rails](http://rubyonrails.org/), [Jekyll](http://jekyllrb.com/), [WordPress](https://wordpress.org/), [Magento](https://magento.com/), [Prestashop](https://www.prestashop.com/), …<br>
+Triem per cada projecte les tecnologies més adequades.<br>
+Utilitzem [eines i processos àgils](http://agilemanifesto.org/iso/ca/principles.html) que permeten fer desenvolupament ràpid, escalable i adaptat als canvis.<br>
+Ens agrada treballar en codi obert, disponible als nostres repositoris."
   side: left
 
-- name: "Phase Two Expansion"
+- name: "Els nostres valors"
   image: "4.jpg"
-  img-alt: "image description"
-  year: "July 2014"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  img-alt: "Treballant en equip"
+  order: 4
+  text: "Amb la nostra manera de fer aportem una dimensió pedagògica i amb perspectiva de gènere al sector tecnològic.<br>
+Som un laboratori de solucions innovadores i creatives basades en tecnologies lliures al servei de la transformació social.<br>
+Creiem en un model d’economia socialment responsable: just, sostenible, cooperatiu, transparent, al servei de la vida i del bé comú.<br>
+Apostem pel programari lliure com a instrument per assolir la sobirania tecnològica efectiva."
   side: right
