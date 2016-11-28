@@ -1,11 +1,27 @@
-- name: "E-Commerce"
-  icon: "shopping-cart"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+- name: "Desenvolupament web i mòbil"
+  icon: "code"
+  description: "Desenvolupament d’aplicacions web a mida.<br>
+Mobile Apps.<br>
+Gestors de continguts.<br>
+Botigues online.<br>
+Web estàtica moderna.<br>
+Landing pages i webs promocionals.<br>
+Disseny de correu HTML.<br>
+Serveis associats: SEO, certificats SSL.<br>
+Formació específica."
 
-- name: "Responsive Design"
-  icon: "laptop"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+- name: "Implantació de programari lliure"
+  icon: "linux"
+  description: "Implantació de sistemes operatius i programari lliure.<br>
+Integració de solucions de programari lliure per entorns corporatius: CRM, ERP, productivitat en el Núvol, …<br>
+Formació i acompanyament en l’adaptació al nou entorn."
 
-- name: "Web Security"
-  icon: "lock"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+- name: "Consultoria tecnològica"
+  icon: "comments"
+  description: "Optimització d’infraestructura.<br>
+Seguretat en les comunicacions i protecció de la informació.<br>
+Treball en xarxa i gestió compartida de projectes.<br>
+Gestió documental.<br>
+Eines de gestió econòmica i de clients.<br>
+Comunicació interna.<br>
+Foment de la participació i presa de decisions col·lectiva."
