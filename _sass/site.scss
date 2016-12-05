@@ -1,3 +1,33 @@
+/* Site custom styles */
+
+@import "site-variables.scss";
+
+//Body
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  color: $secondary-dark;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+//Header
 .hero {
   background-image: url("../assets/img/hero-bg.jpg");
+}
+
+//Navigation
+.navbar-default .avatar {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: 5px 0 5px 15px;
+ }
+
+.navbar-default .avatar {
+  height: 60px;
+  width: 60px;
+  margin: 0;
 }
