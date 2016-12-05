@@ -1,29 +1,24 @@
 <!-- Footer -->
-
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Your Website 2016</span>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-inline social-buttons">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-inline quicklinks">
-                    <li><a href="#">Privacy Policy</a>
-                    </li>
-                    <li><a href="#">Terms of Use</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">&copy; 2015-2016 {{ site.brand }} with</span> <i class="heartBeat fa fa-heart"></i>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          {% for network in site.data.social %}
+          <li>
+            <a href="{{ network.url }}" target="_blank">
+              <i class="fa fa-{{ network.title }}" aria-hidden="true"></i>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <span class="poweredby">No hide, we <a href="http://jekyllrb.com/" title="World's #1 Static Sites Generator" target="_blank">Jekyll</a></span>
+      </div>
     </div>
+  </div>
 </footer>

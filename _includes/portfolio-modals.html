@@ -1,39 +1,55 @@
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    {% for project in site.data.works %}
-    <!-- Portfolio Modal {{ project.order }} -->
-    <div class="portfolio-modal modal fade" id="{{ project.id }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>{{ project.name }}</h2>
-                                <p class="item-intro text-muted">{{ project.claim }}</p>
-                                <img class="img-responsive img-centered" src="/assets/img/portfolio/large-{{ project.photo }}" alt="{{ project.img-alt }}">
-                                <p>{{ project.description }}</p>
-                                <p><strong>{{ project.call-to-action }}</strong></p>
-                                <p>Project site: <a href="{{ project.web }}">{{ project.web }}</a></p>
-                                <ul class="list-inline">
-                                    <li>Date: {{ project.date }}</li>
-                                    <li>Client: {{ project.client }}</li>
-                                    <li>Category: {{ project.category }}</li>                      
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- Portfolio Modals -->
+{% assign projects = site.projects | sort: 'modal-id' | reverse %}
+{% for project in projects limit:9 %}
+<div aria-hidden="true" class="project-modal modal fade" id="projectModal{{ project.modal-id }}" role="dialog" tabindex="-1">
+<div class="modal-content">
+<div class="close-modal" data-dismiss="modal">
+  <div class="lr">
+    <div class="rl"></div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <div class="modal-body">
+        <h2>{{ project.title }}</h2>
+        <hr class="star-primary">
+        <img alt="{{ project.title }}" class="img-responsive img-centered" src="/assets/img/projects/full/{{ project.image }}">
+        <div class="project-description text-muted text-left">{{ project.content }}</div>
+        <ul class="list-inline item-details">
+          <li>Client:
+            <strong>
+              <a href="{{ project.client-url }}" target="_blank">{{ project.client }}</a>
+            </strong>
+          </li>
+          <li>Servei:
+            <strong>
+              <span>{{ project.category }}</span>
+            </strong>
+          </li>
+          {% if project.techs %}
+          <li>Tecnologies:
+            <strong>
+              <span>{{ project.techs }}</span>
+            </strong>
+          </li>
+          {% endif %}
+          {% assign categories = 'Disseny Web', 'Desenvolupament Web' %}
+          {% if categories contains project.category %}
+          <li>URL:
+            <strong>
+              <a href="{{ project.project-url }}" target="_blank">{{ project.project-url }}</a>
+            </strong>
+          </li>
+          {% endif %}
+        </ul>
+        <button class="btn btn-default" data-dismiss="modal" type="button">
+          <i class="fa fa-times"></i>
+          Tancar</button>
+      </div>
     </div>
-    {% endfor %}
+  </div>
+</div>
+</div>
+</div>
+{% endfor %}
