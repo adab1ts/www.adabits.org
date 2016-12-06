@@ -1,7 +1,7 @@
 <!-- Portfolio Modals -->
 {% assign projects = site.projects | sort: 'modal-id' | reverse %}
 {% for project in projects limit:9 %}
-<div aria-hidden="true" class="project-modal modal fade" id="projectModal{{ project.modal-id }}" role="dialog" tabindex="-1">
+<div aria-hidden="true" class="portfolio-modal modal fade" id="projectModal{{ project.modal-id }}" role="dialog" tabindex="-1">
 <div class="modal-content">
 <div class="close-modal" data-dismiss="modal">
   <div class="lr">
@@ -15,7 +15,7 @@
         <h2>{{ project.title }}</h2>
         <hr class="star-primary">
         <img alt="{{ project.title }}" class="img-responsive img-centered" src="/assets/img/projects/full/{{ project.image }}">
-        <div class="project-description text-muted text-left">{{ project.content }}</div>
+        <div class="portfolio-description text-muted text-left">{{ project.content }}</div>
         <ul class="list-inline item-details">
           <li>Client:
             <strong>

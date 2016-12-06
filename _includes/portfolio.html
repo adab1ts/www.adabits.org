@@ -10,10 +10,10 @@
         <div class="row">
           {% assign projects = site.projects | sort: 'modal-id' | reverse %}
           {% for project in projects limit:9 %}
-          <div class="col-md-4 col-sm-6 project-item">
+          <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#projectModal{{ project.modal-id }}">
-              <div class="project-hover">
-                <div class="project-hover-content">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>

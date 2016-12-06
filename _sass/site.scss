@@ -50,6 +50,16 @@ section p.section-tldr {
     }
 }
 
+h4 {
+    text-transform: uppercase;
+    font-family: $primary-font-family;
+    font-weight: 700;
+}
+
+a {
+    color: $primary-color;
+}
+
 //Header
 .hero {
   background-image: url("../assets/img/hero-bg.jpg");
@@ -182,4 +192,23 @@ header .intro-text .intro-heading .logo {
 
 .service-detail ul>li {
   padding: 3px 0;
+}
+
+//Portfolio
+.portfolio-modal .modal-content p.item-intro {
+  font-family: $primary-font-family;
+}
+
+@media(min-width:768px) {
+  .portfolio-modal .modal-content .portfolio-description {
+    padding: 0 55px;
+  }
+  .portfolio-modal .modal-content .portfolio-description p {
+    font-size: 16px;
+  }
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 2em;
 }
