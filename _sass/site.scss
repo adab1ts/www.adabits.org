@@ -111,3 +111,18 @@ header .intro-text .intro-heading .logo {
     font-weight: 700;
     font-style: italic;
 }
+
+//Adab1ts timeline
+.timeline:before {
+    background-color: $line-color;
+}
+
+.timeline>li {
+  border: 7px solid $background-grey;
+}
+
+.timeline .timeline-heading h4.subheading {
+  font-family: $secondary-font-family;
+  font-weight: 700;
+  font-style: italic;
+}
