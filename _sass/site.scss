@@ -19,6 +19,36 @@ section h2.section-heading {
     letter-spacing: 2px;
 }
 
+section h3.section-subheading,
+section h3.section-subheading-alt,
+section h3.subheading {
+    text-transform: none;
+    font-family: $secondary-font-family;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+}
+
+section h3.section-subheading-alt {
+    margin-bottom: 30px;
+}
+
+section p.section-tldr {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+@media(min-width:768px) {
+    section p.section-tldr {
+      font-size: 18px;
+      padding: 0 50px;
+    }
+}
 
 //Header
 .hero {
@@ -125,4 +155,31 @@ header .intro-text .intro-heading .logo {
   font-family: $secondary-font-family;
   font-weight: 700;
   font-style: italic;
+}
+
+//Services
+.service-detail ul {
+  list-style: circle inside;
+  padding: 0 10px;
+}
+.service-detail ul>li {
+  padding: 3px 0;
+}
+
+@media(min-width:768px) {
+  .service-heading {
+    padding: 0 30px;
+  }
+  .service-detail ul {
+    padding: 0 40px;
+  }
+}
+
+.service-detail ul {
+  list-style: circle outside;
+  padding: 0 10px;
+}
+
+.service-detail ul>li {
+  padding: 3px 0;
 }

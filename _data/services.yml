@@ -1,27 +1,31 @@
 - name: "Desenvolupament web i mòbil"
   icon: "code"
-  description: "Desenvolupament d’aplicacions web a mida.<br>
-Mobile Apps.<br>
-Gestors de continguts.<br>
-Botigues online.<br>
-Web estàtica moderna.<br>
-Landing pages i webs promocionals.<br>
-Disseny de correu HTML.<br>
-Serveis associats: SEO, certificats SSL.<br>
-Formació específica."
+  description:
+    - "Desenvolupament d’aplicacions web a mida."
+    - "Mobile Apps."
+    - "Gestors de continguts."
+    - "Botigues online."
+    - "Web estàtica moderna."
+    - "Landing pages i webs promocionals."
+    - "Disseny de correu HTML."
+    - "Serveis associats: SEO, certificats SSL."
+    - "Formació específica."
+
 
 - name: "Implantació de programari lliure"
   icon: "linux"
-  description: "Implantació de sistemes operatius i programari lliure.<br>
-Integració de solucions de programari lliure per entorns corporatius: CRM, ERP, productivitat en el Núvol, …<br>
-Formació i acompanyament en l’adaptació al nou entorn."
+  description:
+    - "Implantació de sistemes operatius i programari lliure."
+    - "Integració de solucions de programari lliure per entorns corporatius: CRM, ERP, productivitat en el Núvol, …"
+    - "Formació i acompanyament en l’adaptació al nou entorn."
 
 - name: "Consultoria tecnològica"
   icon: "comments"
-  description: "Optimització d’infraestructura.<br>
-Seguretat en les comunicacions i protecció de la informació.<br>
-Treball en xarxa i gestió compartida de projectes.<br>
-Gestió documental.<br>
-Eines de gestió econòmica i de clients.<br>
-Comunicació interna.<br>
-Foment de la participació i presa de decisions col·lectiva."
+  description:
+    - "Optimització d’infraestructura."
+    - "Seguretat en les comunicacions i protecció de la informació."
+    - "Treball en xarxa i gestió compartida de projectes."
+    - "Gestió documental."
+    - "Eines de gestió econòmica i de clients."
+    - "Comunicació interna."
+    - "Foment de la participació i presa de decisions col·lectiva."
