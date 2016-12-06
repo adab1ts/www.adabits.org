@@ -1,11 +1,11 @@
 /* Site custom styles */
 
-@import "site-variables.scss";
+@import "variables.scss";
 
 //Body
 body {
   overflow-x: hidden;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: $primary-font-family;
   color: $secondary-dark;
 }
 
@@ -16,6 +16,59 @@ body {
 //Header
 .hero {
   background-image: url("../assets/img/hero-bg.jpg");
+}
+
+header .intro-text {
+    padding-top: 200px;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: $secondary-font-family;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 30px;
+    text-transform: none;
+    font-weight: 400;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+}
+
+header .intro-text .intro-heading .logo {
+  height: 70px;
+  width: auto;
+}
+
+@media(min-width:768px) {
+    header {
+      background-attachment: fixed;
+    }
+
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: $secondary-font-family;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 50px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+    }
+
+    header .intro-text .intro-heading .logo {
+      height: 120px;
+    }
 }
 
 //Navigation
@@ -30,4 +83,14 @@ body {
   height: 60px;
   width: 60px;
   margin: 0;
+}
+
+.navbar-default {
+  background-color: #333;
+}
+
+.navbar-default .nav li a {
+  font-family: $primary-font-family;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
