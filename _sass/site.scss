@@ -13,6 +13,13 @@ body {
   color: $primary-color;
 }
 
+section h2.section-heading {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
 //Header
 .hero {
   background-image: url("../assets/img/hero-bg.jpg");
@@ -93,4 +100,14 @@ header .intro-text .intro-heading .logo {
   font-family: $primary-font-family;
   font-weight: 700;
   letter-spacing: 2px;
+}
+
+//Benefits
+.benefit-heading,
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-style: italic;
 }
