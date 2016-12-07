@@ -212,3 +212,14 @@ header .intro-text .intro-heading .logo {
     margin-bottom: 15px;
     font-size: 2em;
 }
+
+//Team
+.team-member img {
+    border: 7px solid $line-color;
+}
+
+.team-member h4 {
+  font-family: $secondary-font-family;
+  font-weight: 700;
+  font-style: italic;
+}
