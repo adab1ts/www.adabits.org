@@ -20,6 +20,16 @@ p {
 p.large {
   font-size: 16px; }
 
+a {
+  color: $primary-color;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: $secondary-dark;
+}
 
 section h2.section-heading {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
@@ -69,15 +79,6 @@ h4 {
     font-weight: 700;
 }
 
-a {
-    color: $primary-color;
-}
-
-a:hover,
-a:focus,
-a:active,
-a.active {
-  color: $secondary-dark; }
 
 //Header
 .hero {
@@ -138,6 +139,11 @@ header .intro-text .intro-heading .logo {
 }
 
 //Navigation
+.navbar-default .navbar-brand {
+    font-family: primary-font-family;
+    color: $secondary-color;
+}
+
 .navbar-default .avatar {
   display: block;
   height: 50px;
@@ -145,46 +151,82 @@ header .intro-text .intro-heading .logo {
   margin: 5px 0 5px 15px;
  }
 
-.navbar-default .avatar {
-  height: 60px;
-  width: 60px;
-  margin: 0;
-}
-
 .navbar-default {
   background-color: #333;
 }
 
-.navbar-default .nav li a {
-  font-family: $menu-font-family;
-  font-weight: 700;
-  letter-spacing: 2px;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
 }
 
+.navbar-toggle {
+  margin-top: 13px;
+}
 
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
 
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
 
+    .navbar-default .avatar {
+      height: 60px;
+      width: 60px;
+      margin: 0;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+.navbar-default .nav li a {
+  font-family: $menu-font-family;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 21px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav li a {
+    padding-top: 19.5px;
+    padding-bottom: 19.5px;
+  }
+}
 
 .navbar-default .navbar-brand {
     font-family: $menu-font-family;
     color: $primary-color;
 }
 
-
-
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
     color: $secondary-color;
 }
 
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
-}
-
-.navbar-default {
-  background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
