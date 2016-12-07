@@ -223,3 +223,27 @@ header .intro-text .intro-heading .logo {
   font-weight: 700;
   font-style: italic;
 }
+
+//Contact
+section#contact {
+    background-image: url(/assets/img/contact-bg.jpg);
+    background-size: cover;
+}
+
+section#contact .section-subheading,
+section#contact .reasons p {
+  color: $line-color;
+}
+
+section#contact .reasons p {
+  font-size: 16px;
+}
+
+section#contact form {
+  margin-top: 75px;
+}
+@media(min-width:768px) {
+  section#contact form {
+    margin-top: 75px;
+  }
+}
