@@ -1,14 +1,19 @@
-<!-- Clients Aside -->
-<aside class="clients">
-    <div class="container">
-        <div class="row">
-
-          {% for client in site.data.clients limit:8 %}
-            <div class="col-md-3 col-sm-6">
-                <img src="/assets/img/clients/{{ client.img_path }}" class="img-responsive img-centered" alt="Logo de {{ client.name }}">
-            </div>
-          {% endfor %}
-
-        </div>
+<!-- Clients -->
+<section class="bg-light-gray" id="clients">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="subheading text-muted">Ja han confiat en nosaltres&hellip;</h3>
+      </div>
     </div>
-</aside>
+    <div class="row">
+      {% for client in site.data.clients limit:8 %}
+        <div class="col-sm-6 col-md-3">
+          <div class="client-item">
+            <img alt="{{ client.name }}" class="img-responsive" src="/assets/img/clients/{{ client.img_path }}" width="{{ client.img_width }}" height="{{ client.img_height }}">
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
