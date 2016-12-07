@@ -6,12 +6,20 @@
 body {
   overflow-x: hidden;
   font-family: $primary-font-family;
-  color: $secondary-dark;
+  color: $secondary-color;
 }
 
 .text-primary {
   color: $primary-color;
 }
+
+p {
+  font-size: 14px;
+  line-height: 1.75; }
+
+p.large {
+  font-size: 16px; }
+
 
 section h2.section-heading {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
@@ -31,6 +39,11 @@ section h3.subheading {
 
 section h3.section-subheading {
     margin-bottom: 75px;
+}
+
+section h3.subheading {
+    margin-top: 45px;
+    margin-bottom: 30px;
 }
 
 section h3.section-subheading-alt {
@@ -59,6 +72,12 @@ h4 {
 a {
     color: $primary-color;
 }
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: $secondary-dark; }
 
 //Header
 .hero {
@@ -137,9 +156,59 @@ header .intro-text .intro-heading .logo {
 }
 
 .navbar-default .nav li a {
-  font-family: $primary-font-family;
+  font-family: $menu-font-family;
   font-weight: 700;
   letter-spacing: 2px;
+}
+
+
+
+
+
+.navbar-default .navbar-brand {
+    font-family: $menu-font-family;
+    color: $primary-color;
+}
+
+
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: $secondary-color;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: $primary-color;
+    background-color: $primary-color;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: $primary-color;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: $primary-color;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: $primary-color;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: $secondary-color;
 }
 
 //Benefits
@@ -147,7 +216,7 @@ header .intro-text .intro-heading .logo {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-    font-family: 'Lora', serif;
+    font-family: $secondary-font-family;
     font-weight: 700;
     font-style: italic;
 }
@@ -226,22 +295,6 @@ header .intro-text .intro-heading .logo {
     padding-top: 0px;
 }
 
-
-section h3.section-subheading,
-section h3.section-subheading-alt,
-section h3.subheading {
-    text-transform: none;
-    font-family: $secondary-font-family;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-section h3.subheading {
-    margin-top: 45px;
-    margin-bottom: 30px;
-}
-
 #clients .client-item {
   margin: 0 auto 15px;
   padding: 15px 0;
@@ -284,12 +337,106 @@ section#contact form {
   }
 }
 
+
+//Buttons
+.btn-primary {
+  color: $line-color;
+  background-color: $primary-color;
+  border-color: $primary-color;
+  font-family: $menu-font-family
+}
+
+.btn-primary.focus,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.open > .btn-primary.dropdown-toggle
+.open > .btn-primary.dropdown-toggle:hover,
+.open > .btn-primary.dropdown-toggle:focus {
+  color: $line-color;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+}
+
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:hover,
+fieldset[disabled] .btn-primary.focus {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+.btn-primary .badge {
+  color: $primary-color;
+  background-color: $line-color;
+}
+
+
+.btn-primary .badge {
+    color: $primary-color;
+}
+
+.btn-xl {
+    border-color: $primary-color;
+    font-family: $menu-font-family;
+    background-color: $primary-color;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: $secondary-color;
+    background-color: $secondary-color;
+}
+
+
+.btn-xl {
+  color: $line-color;
+  background-color: $primary-color;
+  border-color: $primary-color;
+  font-family: $menu-font-family
+}
+
+.btn-xl:focus,
+.btn-xl:hover,
+.btn-xl:active,
+.btn-xl:active:hover,
+.btn-xl:active:focus,
+.open > .btn-xl.dropdown-toggle,
+.open > .btn-xl.dropdown-toggle:hover,
+.open > .btn-xl.dropdown-toggle.focus {
+  color: $line-color;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+}
+
+.btn-xl.disabled:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:hover,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:hover,
+fieldset[disabled] .btn-xl.focus {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+.btn-xl .badge {
+  color: $primary-color;
+  background-color: $line-color;
+}
+
 //Footer
 footer span.copyright,
 footer span.poweredby {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $menu-font-family;
     line-height: 40px;
 }
 
@@ -315,7 +462,7 @@ footer .heartBeat {
   50% {
     -webkit-transform: scale3d(1.3, 1.3, 1.3);
             transform: scale3d(1.3, 1.3, 1.3);
-    color: #b50033;
+    color: $secondary-color;
   }
   to {
     -webkit-transform: scale3d(1, 1, 1);
@@ -333,7 +480,7 @@ footer .heartBeat {
   50% {
     -webkit-transform: scale3d(1.3, 1.3, 1.3);
             transform: scale3d(1.3, 1.3, 1.3);
-    color: #b50033;
+    color: $secondary-color;
   }
   to {
     -webkit-transform: scale3d(1, 1, 1);
