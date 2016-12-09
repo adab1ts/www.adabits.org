@@ -264,12 +264,20 @@ header .intro-text .intro-heading .logo {
 }
 
 //Adab1ts timeline
+.bg-light-gray {
+  background-color: $background-grey;
+}
+
 .timeline:before {
     background-color: $line-color;
 }
 
 .timeline>li {
-  border: 7px solid $background-grey;
+  border: 0px solid $background-grey;
+}
+
+.timeline>li .timeline-image {
+    border: 7px solid $border-color;
 }
 
 .timeline .timeline-heading h4.subheading {
