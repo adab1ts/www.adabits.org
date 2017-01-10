@@ -1,7 +1,7 @@
 ---
 title: Web FESC2015
 client: Adab1ts
-client-url: http://www.adabits.org/
+client-url: https://www.adabits.org/
 category: Disseny Web
 techs: Jekyll, HTML5, CSS3, jQuery
 project-url: http://fesc2015.adabits.org/
