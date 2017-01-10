@@ -1,7 +1,7 @@
 ---
 title: Com treballem
 image_path: 2.jpg
-img-alt: "Treballant a l'ordinador"
+image_alt: Treballant a l'ordinador
 order: 2
 side: right
 ---

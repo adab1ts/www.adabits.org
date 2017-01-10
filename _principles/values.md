@@ -1,7 +1,7 @@
 ---
 title: Els nostres valors
 image_path: 4.jpg
-img-alt: "Treballant en equip"
+image_alt: Treballant en equip
 order: 4
 side: right
 ---
