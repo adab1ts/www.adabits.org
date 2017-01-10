@@ -1,20 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 {% include head.html %}
-
 <body id="page-top" class="index">
 {% include nav.html %}
-
 {{ content }}
-
 {% include footer.html %}
-
 {% include js.html %}
-
-	{% unless jekyll.environment == "development" %}
-		{% include analytics.html %}
-	{% endunless %}
-
+{% if jekyll.environment == "production" %}
+	{% include analytics.html %}
+{% endif %}
 </body>
-
 </html>
