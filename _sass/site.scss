@@ -387,6 +387,24 @@ section#contact form {
   }
 }
 
+section#contact .form-control:focus {
+    border-color: $primary-color;
+    border-width: 2px;
+    box-shadow: none;
+}
+
+section#contact .form-control:-ms-input-placeholder {
+  color: $placeholder-color;
+}
+section#contact .form-control::-ms-input-placeholder {
+  color: $placeholder-color;
+}
+section#contact .form-control::-webkit-input-placeholder {
+  color: $placeholder-color;
+}
+section#contact .form-control::placeholder {
+  color: $placeholder-color;
+}
 
 //Buttons
 .btn-primary {
