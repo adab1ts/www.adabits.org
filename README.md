@@ -13,5 +13,5 @@ LinkedIn: [adab1ts](https://www.linkedin.com/company/adab1ts)
 
 ## License
 
-The code of this website is &copy; 2016 [Adab1ts](http://www.adabits.org) under the terms of the [MIT License](LICENSE.md).  
-The contents of this website are &copy; 2015 [Adab1ts](http://www.adabits.org) under the terms of the [Creative Commons BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/deed) license.
+The code of this website is &copy; 2017 [Adab1ts](http://www.adabits.org) under the terms of the [MIT License](LICENSE.md).  
+The contents of this website are &copy; 2017 [Adab1ts](http://www.adabits.org) under the terms of the [Creative Commons BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/deed) license.
