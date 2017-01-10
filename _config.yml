@@ -17,17 +17,14 @@ includes_dir: _includes
 # Paths
 sass_dir: _sass
 
-
 # Collections
 collections:
   - benefits
   - principles
   - projects
 
-
 # Handling Reading
-exclude: ["LICENSE.md", "README.md", "Gemfile", "Gemfile.lock", "mail"]
-# Handling Reading
+exclude: ["LICENSE.md", "README.md", "Gemfile", "Gemfile.lock"]
 encoding: "utf-8"
 markdown_ext: "md"
 
@@ -36,13 +33,12 @@ show_drafts: false
 future:      false
 
 # Plugins
-gems:
-#   - jekyll-redirect-from
-#- jekyll-sitemap
-- jekyll-feed
+#gems:
+#  - jekyll-redirect-from
+#  - jekyll-sitemap
+#  - jekyll-feed
 
-
-theme: agency-jekyll-theme
+# theme: agency-jekyll-theme
 
 # Conversion
 markdown:    kramdown
