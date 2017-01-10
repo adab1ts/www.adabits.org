@@ -1,72 +1,65 @@
 // Contact Form Scripts
 
-$(function() {
+(function($) {
+    function validateForm($form) {
+      var isValid = true;
 
-    $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
-        preventSubmit: true,
-        submitError: function($form, event, errors) {
-            // additional error messages or events
-        },
-        submitSuccess: function($form, event) {
-            event.preventDefault(); // prevent default submit behaviour
-            // get values from FORM
-            var name = $("input#name").val();
-            var email = $("input#email").val();
-            var phone = $("input#phone").val();
-            var message = $("textarea#message").val();
-            var firstName = name; // For Success/Failure Message
-            // Check for white space in name for Success/Fail message
-            if (firstName.indexOf(' ') >= 0) {
-                firstName = name.split(' ').slice(0, -1).join(' ');
-            }
-            $.ajax({
-                url: "",
-                type: "POST",
-                data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
-                },
-                cache: false,
-                success: function() {
-                    // Success message
-                    $('#success').html("<div class='alert alert-success'>");
-                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
-                    $('#success > .alert-success')
-                        .append('</div>');
+      $form.find('input,textarea').filter('[required]:visible').each(function() {
+        var field = $(this);
+        field.attr('aria-invalid', null);
 
-                    //clear all fields
-                    $('#contactForm').trigger("reset");
-                },
-                error: function() {
-                    // Fail message
-                    $('#success').html("<div class='alert alert-danger'>");
-                    $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
-                    $('#success > .alert-danger').append('</div>');
-                    //clear all fields
-                    $('#contactForm').trigger("reset");
-                },
-            });
-        },
-        filter: function() {
-            return $(this).is(":visible");
-        },
-    });
+        var $formGroup = field.parent();
+        $formGroup.removeClass('has-error');
 
-    $("a[data-toggle=\"tab\"]").click(function(e) {
+        if ($.trim(field.val()) === '') {
+          field.attr('aria-invalid', true);
+          $formGroup.addClass('has-error');
+          isValid = false;
+        }
+      });
+
+      return isValid;
+    }
+
+    $('#contactForm').submit(function(e) {
         e.preventDefault();
-        $(this).tab("show");
+        var $form = $(this);
+        var isValid = validateForm($form);
+
+        if (isValid) {
+          var messages = {
+            success: 'El teu missatge ha estat enviat amb èxit. En breu ens posarem en contacte amb tu.',
+            error: 'El teu missatge no s\'ha pogut entregar. Si us plau, torna-ho a provar en uns minuts.'
+          };
+          $.ajax({
+              url: '//formspree.io/info@adabits.org',
+              method: 'POST',
+              data: $form.serialize(),
+              dataType: 'json',
+              success: function(data) {
+                  // Success message
+                  $('#sentMessage').html("<div class='alert alert-success'>");
+                  $('#sentMessage > .alert-success').append("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>");
+                  $('#sentMessage > .alert-success').append("<strong>" + messages.success + "</strong>");
+                  $('#sentMessage > .alert-success').append('</div>');
+                  //clear all fields
+                  $form.trigger('reset');
+              },
+              error: function(err) {
+                  // Fail message
+                  $('#sentMessage').html("<div class='alert alert-danger'>");
+                  $('#sentMessage > .alert-danger').append("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>");
+                  $('#sentMessage > .alert-danger').append("<strong>" + messages.error + "</strong>");
+                  $('#sentMessage > .alert-danger').append('</div>');
+                  //clear all fields
+                  $form.trigger('reset');
+              }
+          });
+        }
     });
-});
 
-
-/*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
-    $('#success').html('');
-});
+    /*When clicking on Full hide fail/success boxes */
+    $('#name').focus(function() {
+        $('#sentMessage').html('');
+    });
+})($);
