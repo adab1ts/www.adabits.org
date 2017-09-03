@@ -1,7 +1,7 @@
 ---
 title: La nostra raó de ser
-image_path: 1.jpg
-image_alt: Taula d'oficina amb diferents dispositius
+image_path: 1-app-design.jpg
+image_alt: Ma oferint un mòbil
 order: 1
 ---
 Volem apropar la tecnologia a les persones perquè creiem en el seu gran potencial com a eina de comunicació i de millora de la realitat.

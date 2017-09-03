@@ -1,6 +1,6 @@
 ---
 title: Els nostres valors
-image_path: 4.jpg
+image_path: 4-team-up-hands.jpg
 image_alt: Treballant en equip
 order: 4
 side: right
