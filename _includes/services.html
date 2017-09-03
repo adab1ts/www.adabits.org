@@ -6,8 +6,8 @@
                 <h2 class="section-heading">Serveis</h2>
                 <h3 class="section-subheading-alt text-muted">Molt més que serveis TIC</h3>
                 <p class="section-tldr large text-muted">
-                  Oferim la possibilitat de fer créixer el vostre projecte de la mà d’un equip creatiu, multidisciplinar i proper
-                  que incorpora les últimes tecnologies, treballa col·laborativament i posa l’accent en l’accessibilitat, la pedagogia i el gènere.<br>
+                  Oferim fer créixer el vostre projecte de la mà d’un equip creatiu, multidisciplinar i proper
+                  que incorpora les últimes tecnologies, treballa col·laborativament i té en compte l’accessibilitat, la pedagogia i la perspectiva de gènere.<br>
                   Ens adaptem a les necessitats del vostre projecte amb la màxima professionalitat.
                 </p>
             </div>
@@ -21,8 +21,9 @@
                 </span>
                 <h4 class="service-heading text-center">{{ service.name }}</h4>
                 <div class="service-detail text-muted text-left">
+                  <p>{{ service.description }}</p>
                   <ul>
-                    {% for item in service.description %}
+                    {% for item in service.items %}
                     <li>{{ item }}</li>
                     {% endfor %}
                   </ul>
