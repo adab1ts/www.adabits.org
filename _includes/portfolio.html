@@ -9,7 +9,7 @@
         </div>
         <div class="row">
           {% assign projects = site.projects | sort: 'modal-id' | reverse %}
-          {% for project in projects limit:9 %}
+          {% for project in projects limit:12 %}
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#projectModal{{ project.modal-id }}">
               <div class="portfolio-hover">
@@ -21,7 +21,7 @@
             </a>
             <div class="portfolio-caption">
               <h4>{{ project.title }}</h4>
-              <p class="text-muted">{{ project.category }}</p>
+              <p class="text-muted">{{ project.tags | join: ' | ' }}</p>
             </div>
           </div>
           {% endfor %}
