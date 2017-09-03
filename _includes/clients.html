@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="row">
-      {% for client in site.data.clients limit:8 %}
+      {% for client in site.data.clients limit:12 %}
         <div class="col-sm-6 col-md-3">
           <div class="client-item">
             <img alt="{{ client.name }}" class="img-responsive" src="/assets/img/clients/{{ client.img_path }}" width="{{ client.img_width }}" height="{{ client.img_height }}">

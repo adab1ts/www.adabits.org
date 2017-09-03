@@ -1,3 +1,8 @@
+- name: Ajuntament de Barcelona
+  img_path: logo-ajbcn.png
+  img_width: 500
+  img_height: 131
+
 - name: Barcelona en Comú
   img_path: logo-bec.png
   img_width: 500
@@ -50,11 +55,6 @@
 
 - name: EUDEA
   img_path: logo-eudea.png
-  img_width: 500
-  img_height: 131
-
-- name: Quaryat Dillar
-  img_path: logo-quaryat.png
   img_width: 500
   img_height: 131
 
