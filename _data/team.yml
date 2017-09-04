@@ -1,6 +1,9 @@
-- name: "Klaudia Álvarez"
-  headline: "Lead Designer"
-  bio: "Llicenciada en Comunicació audiovisual. Màster en Art i Educació. Web designer. Gestora cultural. A mig camí entre les belles arts, la pedagogia i la comunicació 2.0. Entusiasta de la fotografia analògica i defensora de la cultura lliure. Compagino la meva feina a Adab1ts amb l'activisme en comunicació i l’escriptura de la meva tesi doctoral."
+- name: Klaudia Álvarez
+  headline: Lead Designer
+  bio: |
+    Llicenciada en Comunicació audiovisual. Màster en Art i Educació. Web designer i frontend developer. Disseny d’interfícies, UX,
+    interacció i accesibilitat. A mig camí entre les belles arts i la comunicació 2.0. Defensora de la cultura lliure,
+    compagino la meva feina a Adab1ts amb l'activisme en comunicació.
   photo: 1.png
   social:
     - title: linkedin
@@ -8,9 +11,13 @@
     - title: github
       url: https://github.com/laklau
 
-- name: "Carles Muiños"
-  headline: "Lead Developer"
-  bio: "Enginyer informàtic. Màster en Software Lliure. Full Stack web developer i administrador de sistemes GNU/Linux. Faig acompanyament en l'aprenentatge d'eines lliures com a contribució a l'alfabetització digital de la ciutadania. Allibero màquines, codi i coneixement."
+- name: Carles Muiños
+  headline: Lead Developer
+  bio: |
+    Enginyer informàtic. Màster en Software Lliure. Com a Full Stack web developer m’apassiona desenvolupar aplicacions
+    fent ús de les tecnologies web i mòbil més modernes, ja sigui amb Angular, Vue.js, NativeScript, Node.js o Ruby on Rails.
+    Faig acompanyament en l'aprenentatge d'eines lliures com a contribució a l'alfabetització digital de la ciutadania.
+    Allibero màquines, codi i coneixement.
   photo: 2.png
   social:
     - title: linkedin
@@ -18,9 +25,12 @@
     - title: github
       url: https://github.com/zuzust
 
-- name: "Ada Lovelace"
-  headline: "Enchantress of Numbers"
-  bio: "Nascuda al 1815, se la considera la inventora del primer llenguatge de programació de propòsit general. La seva figura és un símbol per les dones en un sector tan masculinitzat com el de la tecnologia. Per nosaltres Ada Lovelace és una font d’inspiració a la qual homenatgem amb el nostre nom i el disseny del nostre logo, en referència a la flor que Ada portava al cap en el més famós dels seus retrats."
+- name: Ada Lovelace
+  headline: Enchantress of Numbers
+  bio: |
+    Nascuda al 1815, se la considera la inventora del primer llenguatge de programació de propòsit general. La seva figura és un símbol per les dones
+    en un sector tan masculinitzat com el de la tecnologia. Per nosaltres Ada Lovelace és una font d’inspiració a la qual homenatgem
+    amb el nostre nom i el disseny del nostre logo, en referència a la flor que Ada portava al cap en el més famós dels seus retrats.
   photo: 3.png
   social:
     - title: wikipedia-w

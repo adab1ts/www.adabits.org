@@ -9,29 +9,29 @@
         </div>
         <div class="row">
           {% for member in site.data.team %}
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="/assets/img/team/{{ member.photo }}" class="img-responsive img-circle" alt="{{ member.name }}">
-                    <h4>{{ member.name }}</h4>
-                    <p class="text-muted">{{ member.headline }}</p>
-                    <p class="text-muted text-left">{{ member.bio }}</p>
-                    <ul class="list-inline social-buttons">
-                      {% for network in member.social %}
-                      <li>
-                        <a href="{{ network.url }}" target="_blank">
-                          <i class="fa fa-{{ network.title }}"></i>
-                        </a>
-                      </li>
-                      {% endfor %}
-                    </ul>
-                </div>
-            </div>
+          <div class="col-sm-4">
+              <div class="team-member">
+                  <img src="/assets/img/team/{{ member.photo }}" class="img-responsive img-circle" alt="{{ member.name }}">
+                  <h4>{{ member.name }}</h4>
+                  <p class="text-muted">{{ member.headline }}</p>
+                  <p class="text-muted text-left">{{ member.bio }}</p>
+                  <ul class="list-inline social-buttons">
+                    {% for network in member.social %}
+                    <li>
+                      <a href="{{ network.url }}" target="_blank">
+                        <i class="fa fa-{{ network.title }}"></i>
+                      </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+              </div>
+          </div>
           {% endfor %}
         </div>
 
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p class="large text-muted">Adab1ts és el nostre projecte d’emprenedoria social, però no estem soles. La nostra xarxa de col·laboradors està formada per professionals del desenvolupament, el disseny gràfic i la producció audiovisual. En funció del projecte ampliem l’equip en aquelles àrees en que cada cas requereixi.</p>
+                <p class="large text-muted">Adab1ts és el nostre projecte d’emprenedoria social, però no estem soles. La nostra xarxa de col·laboradors està formada per professionals del desenvolupament, el disseny web i gràfic i la producció audiovisual. En funció del projecte ampliem l’equip en aquelles àrees en que cada cas requereixi.</p>
             </div>
         </div>
     </div>
