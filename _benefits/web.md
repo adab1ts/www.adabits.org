@@ -1,6 +1,6 @@
 ---
 title: Web
-icon: fa-code
+icon: fa-html5
 order: 1
 ---
 Desenvolupem webs, aplicacions i botigues online.

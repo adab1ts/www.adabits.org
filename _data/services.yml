@@ -1,5 +1,5 @@
 - name: Disseny web
-  icon: code
+  icon: html5
   description: |
     Dissenyem i desenvolupem tant webs que necessiten d'actualització recurrent de continguts i que demanen d'una gestió àgil i senzilla (CMS)
     com webs de continguts estàtics (campanyes socials, promocionals, esdeveniments, fundraising, landing pages, etc).
@@ -14,7 +14,7 @@
     - Ens encarreguem del manteniment
 
 - name: Desenvolupament d'aplicacions
-  icon: mobile
+  icon: code
   description: |
     Desenvolupem tot tipus d'aplicacions web i mòbil a mida fent ús de les darreres tecnologies.
   items:
