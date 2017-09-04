@@ -1,39 +1,40 @@
-- name: "Disseny web"
-  icon: "code"
-  description: "Dissenyem i desenvolupem tant webs que necessiten d'actualització recurrent de continguts i que demanen d'una gestió àgil i senzilla (CMS) com webs de continguts estàtics (campanyes socials, promocionals, esdeveniments, fundraising, landing pages, etc). Posem l'accent en el disseny, la usabilitat, el rendiment i la seguretat."
+- name: Disseny web
+  icon: code
+  description: |
+    Dissenyem i desenvolupem tant webs que necessiten d'actualització recurrent de continguts i que demanen d'una gestió àgil i senzilla (CMS)
+    com webs de continguts estàtics (campanyes socials, promocionals, esdeveniments, fundraising, landing pages, etc).
+    Posem l'accent en el disseny, la usabilitat, el rendiment i la seguretat.
   items:
-    - "JAMstack"
-    - "Accelerated Mobile Pages"
-    - "Integració de funcionalitats específiques desenvolupades a mida"
-    - "Webs responsive adaptades a tots els dispositius"
-    - "Disseny de correu HTML"
+    - JAMstack
+    - Accelerated Mobile Pages (AMP)
+    - Webs offline-first adaptades a tots els dispositius
+    - Integració de funcionalitats específiques desenvolupades a mida
     - "Serveis associats: SEO, certificats SSL, CDN"
-    - "Fem servir tecnologies obertes"
-    - "Ens encarreguem del manteniment"
+    - Fem servir tecnologies obertes
+    - Ens encarreguem del manteniment
 
-
-- name: "Desenvolupament d'aplicacions"
-  icon: "mobile"
-  description: "Desenvolupem tot tipus d'aplicacions web i mòbil a mida fent ús de les darreres tecnologies punta."
+- name: Desenvolupament d'aplicacions
+  icon: mobile
+  description: |
+    Desenvolupem tot tipus d'aplicacions web i mòbil a mida fent ús de les darreres tecnologies.
   items:
-    - Mapes, visualitzacions de dades, aplicacions en temps real, sistemes d'informació, aplicacions de gestió, integracions de programari de codi obert i tot allò que necessiti la teva organització.
+    - Aplicacions en temps real, mapes, visualitzacions de dades, aplicacions de gestió, sistemes d'informació, integracions de programari de codi obert i tot allò que necessiti la teva organització.
     - Aplicacions web progressives (PWA) que ofereixen una experiència en dispositius mòbils molt similar a les apps tradicionals sense necessitat d'instal·lació.
     - Aplicacions mòbils natives per una experiència completa a iOS i Android, disponibles a Google Play i Apple Store.
-    - "Botigues online: Posem al teu abast tot el que necessites per vendre els teus productes online: gestió de catàleg, stock, proveïdors, clients i comandes, pasarel·les de pagament, factures, enviaments, promocions, estadístiques i molt més."
+    - "Botigues online. Posem al teu abast tot el que necessites per vendre els teus productes: gestió de catàleg, stock, proveïdors, clients i comandes, pasarel·les de pagament, factures, enviaments, promocions, estadístiques i molt més."
 
-
-
-- name: "Consultoria tecnològica"
-  icon: "comments"
-  description: "Assessorem i implantem solucions modulars adaptades en els següents àmbits:"
+- name: Consultoria tecnològica
+  icon: comments
+  description: |
+    Assessorem i implantem solucions modulars adaptades en els següents àmbits
   items:
-    - "Implantació de sistemes operatius i programari lliure."
+    - Implantació de sistemes operatius i programari lliure.
     - "Integració de solucions de programari lliure per entorns corporatius: CRM, ERP, productivitat en el Núvol, …"
-    - "Optimització d’infraestructura."
-    - "Seguretat en les comunicacions i protecció de la informació."
-    - "Treball en xarxa i gestió compartida de projectes."
-    - "Gestió documental."
-    - "Eines de gestió econòmica i de clients."
-    - "Comunicació interna."
-    - "Foment de la participació i presa de decisions col·lectiva."
-    - "Formació i acompanyament en l’adaptació al nou entorn."
+    - Optimització d’infraestructura.
+    - Seguretat en les comunicacions i protecció de la informació.
+    - Treball en xarxa i gestió compartida de projectes.
+    - Gestió documental.
+    - Eines de gestió econòmica i de clients.
+    - Comunicació interna.
+    - Foment de la participació i presa de decisions col·lectiva.
+    - Formació i acompanyament en l’adaptació al nou entorn.
