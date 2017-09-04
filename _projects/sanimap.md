@@ -6,7 +6,10 @@ tags:
 - Mapa
 client: CONFAVC
 client-url: http://confavc.cat/
-techs: JAMstack, Material Design Lite, Carto
+techs:
+- JAMstack
+- Material Design Lite
+- CARTO
 project-url: https://sanimap.confavc.cat
 project-date: Juny 2017
 image: sanimap.jpg

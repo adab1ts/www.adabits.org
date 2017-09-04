@@ -5,7 +5,9 @@ tags:
 - Implantació Programari Lliure
 client: Ateneu Roig
 client-url: http://www.roigcultura.cat/
-techs: Chef, Xubuntu 14.04 LTS
+techs:
+- Chef,
+- Xubuntu 14.04 LTS
 project-url:
 project-date: Maig 2015
 image: roig.jpg

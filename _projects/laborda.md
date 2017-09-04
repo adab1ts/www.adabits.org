@@ -5,7 +5,10 @@ tags:
 - Disseny Web
 client: La Borda
 client-url: http://www.laborda.coop/
-techs: JAMstack, Semantic-UI
+techs:
+- JAMstack
+- Semantic-UI
+- jQuery
 project-url: https://documental.laborda.coop/
 project-date: Desembre 2016
 image: laborda.jpg

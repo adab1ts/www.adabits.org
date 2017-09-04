@@ -6,7 +6,12 @@ tags:
 - Mapa
 client: CONFAVC
 client-url: http://confavc.cat/
-techs: Angular, Firebase, Material Design
+techs:
+- Angular
+- Firebase
+- NgRx
+- Service Worker
+- Angular Material
 project-url: https://github.com/adab1ts/veinapp/
 project-date: Setembre 2017
 image: veinapp.jpg

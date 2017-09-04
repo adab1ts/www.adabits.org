@@ -5,7 +5,9 @@ tags:
 - Desenvolupament Web
 client: Vaga de Totes
 client-url: https://vagadetotes.wordpress.com/
-techs: Ruby on Rails, PostgreSQL
+techs:
+- Ruby on Rails
+- PostgreSQL
 project-url: http://vagadetotes.herokuapp.com/
 project-date: Octubre 2014
 image: vagadetotes.jpg

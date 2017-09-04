@@ -5,7 +5,8 @@ tags:
 - Disseny Web
 client: CONFAVC
 client-url: http://confavc.cat/
-techs: WordPress
+techs:
+- WordPress
 project-url: http://confavc.cat/
 project-date: Octubre 2015
 image: web-confavc.jpg

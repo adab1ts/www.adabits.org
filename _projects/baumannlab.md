@@ -5,7 +5,9 @@ tags:
 - Implantació Programari Lliure
 client: BaumannLab
 client-url: http://www.baumannlab.cat/
-techs: Chef, Linux Mint 13 LTS
+techs:
+- Chef
+- Linux Mint 13 LTS
 project-url:
 project-date: Març 2014
 image: baumannlab.jpg

@@ -35,7 +35,7 @@
               {% if project.techs %}
               <li>Tecnologies:
                 <strong>
-                  <span>{{ project.techs }}</span>
+                  <span>{{ project.techs | join: ', ' }}</span>
                 </strong>
               </li>
               {% endif %}

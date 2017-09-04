@@ -5,7 +5,8 @@ tags:
 - Disseny Web
 client: Abadá Capoeira BCN
 client-url: http://www.abadabarcelona.org/
-techs: WordPress
+techs:
+- WordPress
 project-url: http://www.abadabarcelona.org/
 project-date: Març 2016
 image: abada.jpg

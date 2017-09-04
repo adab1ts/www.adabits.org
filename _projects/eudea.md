@@ -5,7 +5,8 @@ tags:
 - Disseny Web
 client: EUDEA
 client-url: http://eudea.es/
-techs: WordPress
+techs:
+- WordPress
 project-url: http://eudea.es/
 project-date: Setembre 2014
 image: eudea.jpg

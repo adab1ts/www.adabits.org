@@ -5,7 +5,8 @@ tags:
 - Disseny Web
 client: Impuls Cooperatiu de Sants
 client-url: http://sants.coop/
-techs: WordPress
+techs:
+- WordPress
 project-url: http://sants.coop/
 project-date: Abril 2016
 image: impuls.jpg

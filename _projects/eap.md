@@ -5,7 +5,10 @@ tags:
 - Implantació Programari Lliure
 client: Escola d'Arts del Prat
 client-url: http://amicsartprat.org/eap/
-techs: Chef, OwnCloud, Ubuntu 12.04 LTS
+techs:
+- Chef
+- OwnCloud
+- Ubuntu 12.04 LTS
 project-url:
 project-date: Març 2014
 image: eap.jpg
