@@ -4,7 +4,7 @@ image_path: 3-js-code-screen.jpg
 image_alt: Pantalla amb codi
 order: 3
 ---
-[Angular](https://angular.io/), [React](https://facebook.github.io/react/), [NativeScript](https://www.nativescript.org/), [Ruby on Rails](http://rubyonrails.org/), [Jekyll](https://jekyllrb.com/), [WordPress](https://wordpress.org/), [Moltin](https://www.moltin.com/), [Prestashop](https://www.prestashop.com/), …
+[Angular](https://angular.io/), [Vue.js](https://vuejs.org/), [NativeScript](https://www.nativescript.org/), [Node.js](https://nodejs.org/en/), [Ruby on Rails](http://rubyonrails.org/), [Jekyll](https://jekyllrb.com/), [Moltin](https://www.moltin.com/), [WordPress](https://wordpress.org/), [Prestashop](https://www.prestashop.com/), …
 
 Triem per cada projecte les tecnologies més adequades.
 
