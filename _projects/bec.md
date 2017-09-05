@@ -15,4 +15,6 @@ image: bec.jpg
 thumbnail: bec-thumbnail.jpg
 modal-id: 9
 ---
-BeC ens va encarregar la integració de la plataforma de comunicació i discussió *Discourse* amb la seva plataforma de participació [*Participa*](https://participa.barcelonaencomu.cat/). Hem desenvolupat un plugin que permet l'autenticació i l'accés a *Discourse* via *Participa*, utilitzant OmniAuth i el protocol OAuth 2. També hem fet les adaptacions requerides a la plataforma *Participa* per tal d'adequar-la a les necessitats funcionals derivades de la integració amb *Discourse*.
+BeC ens va encarregar la integració de la plataforma de comunicació i discussió *Discourse* amb la seva plataforma de participació [*Participa*](https://participa.barcelonaencomu.cat/). Específicament, calia delegar el registre i inici de sessió a *Discourse* en *Participa*, per tal de mantenir un únic registre d'usuàries per tota la infraestructura.
+
+A tal efecte, vam adaptar *Participa* per donar servei com a proveïdor OAuth 2, i vam desenvolupar una estratègia OmniAuth específica per modificar el flux d'autenticació i accés a *Discourse*, i delegar en *Participa* la gestió de grups.
