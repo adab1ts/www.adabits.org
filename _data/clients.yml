@@ -1,3 +1,18 @@
+- name: Universitat de Barcelona
+  img_path: logo-ub.png
+  img_width: 500
+  img_height: 131
+
+- name: SOS Racisme
+  img_path: logo-sos.png
+  img_width: 500
+  img_height: 131
+
+- name: Decidim Barcelona
+  img_path: logo-decidim.png
+  img_width: 500
+  img_height: 131
+
 - name: Ajuntament de Barcelona
   img_path: logo-ajbcn.png
   img_width: 500
@@ -60,5 +75,10 @@
 
 - name: Escola d'Arts del Prat
   img_path: logo-eap.png
+  img_width: 500
+  img_height: 131
+
+- name: Programa En Línea
+  img_path: logo-enlinea.png
   img_width: 500
   img_height: 131
