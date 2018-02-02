@@ -10,7 +10,7 @@ project-url:
 project-date: Juny 2016
 image: filalagulla.jpg
 thumbnail: consultoria-thumbnail.jpg
-modal-id: 7
+modal-id: -7
 ---
 La coopertiva Fil a l'Agulla es va posar en contacte amb nosaltres per tal de dur a terme una renovació tecnològica que li permetés millorar el seu funcionament intern. Aquest projecte s'està executant en vàries fases.
 
